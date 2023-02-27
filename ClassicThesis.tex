@@ -30,6 +30,7 @@
 % **************************************************************************************************************
 \RequirePackage{silence} % :-\
     \WarningFilter{scrreprt}{Usage of package `titlesec'}
+    \WarningFilter{scrreprt}{Usage of package `tocloft'}
     %\WarningFilter{scrreprt}{Activating an ugly workaround}
     \WarningFilter{titlesec}{Non standard sectioning command}
 \documentclass[ twoside,openright,titlepage,numbers=noenddot,%1headlines,
@@ -57,6 +58,8 @@
 % GO!GO!GO! MOVE IT!
 %*******************************************************
 \begin{document}
+\showboxbreadth=50 
+\showboxdepth=50
 \frenchspacing
 \raggedbottom
 \selectlanguage{american} % american ngerman
